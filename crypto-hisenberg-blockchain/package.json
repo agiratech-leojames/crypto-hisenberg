@@ -1,0 +1,31 @@
+{
+  "name": "cryptohisenberg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eduLoan" : "npx hardhat run scripts/proxy_loan.js --network mumbai",
+    "eduLoan_1" : "npx hardhat run scripts/test.js --network mumbai",
+    "proxy_reg" : "npx hardhat run scripts/proxy_reg.js --network mumbai",
+    "proxy_eduloan": "npx hardhat run scripts/proxy_eduloan.js --network mumbai"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "@openzeppelin/contracts-ethereum-package": "^2.2.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "@openzeppelin/hardhat-upgrades": "^1.20.0",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.11.2",
+    "hardhat-contract-sizer": "^2.6.1",
+    "web3": "^1.7.4"
+  }
+}

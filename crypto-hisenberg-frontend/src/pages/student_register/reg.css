@@ -1,0 +1,19 @@
+.MuiFormControl-root {
+    width: 90% !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    background: white !important;
+    border-radius: 10px;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus{
+    border: none  !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+    background: white;
+}
+
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root{
+    background: white;
+}
